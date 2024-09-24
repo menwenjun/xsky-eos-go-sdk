@@ -1,0 +1,56 @@
+# OSOriginPullRuleResp
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**OsOriginPullRule** | Pointer to [**OSOriginPullRule**](OSOriginPullRule.md) |  | [optional] 
+
+## Methods
+
+### NewOSOriginPullRuleResp
+
+`func NewOSOriginPullRuleResp() *OSOriginPullRuleResp`
+
+NewOSOriginPullRuleResp instantiates a new OSOriginPullRuleResp object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewOSOriginPullRuleRespWithDefaults
+
+`func NewOSOriginPullRuleRespWithDefaults() *OSOriginPullRuleResp`
+
+NewOSOriginPullRuleRespWithDefaults instantiates a new OSOriginPullRuleResp object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetOsOriginPullRule
+
+`func (o *OSOriginPullRuleResp) GetOsOriginPullRule() OSOriginPullRule`
+
+GetOsOriginPullRule returns the OsOriginPullRule field if non-nil, zero value otherwise.
+
+### GetOsOriginPullRuleOk
+
+`func (o *OSOriginPullRuleResp) GetOsOriginPullRuleOk() (*OSOriginPullRule, bool)`
+
+GetOsOriginPullRuleOk returns a tuple with the OsOriginPullRule field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetOsOriginPullRule
+
+`func (o *OSOriginPullRuleResp) SetOsOriginPullRule(v OSOriginPullRule)`
+
+SetOsOriginPullRule sets OsOriginPullRule field to given value.
+
+### HasOsOriginPullRule
+
+`func (o *OSOriginPullRuleResp) HasOsOriginPullRule() bool`
+
+HasOsOriginPullRule returns a boolean if a field has been set.
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
