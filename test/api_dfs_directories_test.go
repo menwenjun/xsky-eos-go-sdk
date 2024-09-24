@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService CheckDirectoryResources", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.CheckDirectoryResources(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService CreateDfsCSIDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.CreateDfsCSIDirectory(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService CreateDfsDirectories", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.CreateDfsDirectories(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService CreateDfsDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.CreateDfsDirectory(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService DeleteDfsDirectories", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.DeleteDfsDirectories(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService DeleteDfsDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.DeleteDfsDirectory(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService DirectoryValidator", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.DirectoryValidator(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_DfsDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test DfsDirectoriesAPIService UpdatePolicyOnDfsDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsDirectoriesAPI.UpdatePolicyOnDfsDirectory(context.Background()).Execute()
 

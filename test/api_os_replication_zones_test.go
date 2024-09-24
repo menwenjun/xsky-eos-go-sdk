@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
 
 	t.Run("Test OsReplicationZonesAPIService CreateOSReplicationZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsReplicationZonesAPI.CreateOSReplicationZone(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
 
 	t.Run("Test OsReplicationZonesAPIService DeleteOSReplicationZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var zoneUuid string
 
@@ -50,7 +50,7 @@ func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
 
 	t.Run("Test OsReplicationZonesAPIService GetOSReplicationZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var zoneUuid string
 
@@ -64,7 +64,7 @@ func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
 
 	t.Run("Test OsReplicationZonesAPIService GetOSReplicationZoneSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var zoneUuid string
 
@@ -78,7 +78,7 @@ func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
 
 	t.Run("Test OsReplicationZonesAPIService ListOSReplicationZones", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsReplicationZonesAPI.ListOSReplicationZones(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_OsReplicationZonesAPIService(t *testing.T) {
 
 	t.Run("Test OsReplicationZonesAPIService UpdateOSReplicationZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var zoneUuid string
 

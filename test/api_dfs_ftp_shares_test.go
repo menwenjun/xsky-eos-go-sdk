@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService AddDfsFTPShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsFtpShareId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService CreateDfsFTPShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsFtpSharesAPI.CreateDfsFTPShare(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService DeleteDfsFTPShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsFtpShareId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService GetDfsFTPShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsFtpShareId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService ListDfsFTPShares", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsFtpSharesAPI.ListDfsFTPShares(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService RemoveDfsFTPShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsFtpShareId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService UpdateDfsFTPShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsFtpShareId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsFtpSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsFtpSharesAPIService UpdateDfsFTPShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsFtpShareId int64
 

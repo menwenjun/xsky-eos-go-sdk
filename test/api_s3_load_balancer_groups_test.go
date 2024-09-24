@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService AddS3LoadBalancersToGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService CreateS3LoadBalancerGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3LoadBalancerGroupsAPI.CreateS3LoadBalancerGroup(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService DeleteS3LoadBalancerGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService GetS3LoadBalancerGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService ListS3LoadBalancerGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3LoadBalancerGroupsAPI.ListS3LoadBalancerGroups(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService RedeployS3LoadBalancerGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService RegisterS3LoadBalancerService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3LoadBalancerGroupsAPI.RegisterS3LoadBalancerService(context.Background()).Execute()
 
@@ -116,7 +116,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService RemoveS3LoadBalancerService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3LoadBalancerGroupsAPI.RemoveS3LoadBalancerService(context.Background()).Execute()
 
@@ -128,7 +128,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService RemoveS3LoadBalancersFromGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -142,7 +142,7 @@ func Test_openapi_S3LoadBalancerGroupsAPIService(t *testing.T) {
 
 	t.Run("Test S3LoadBalancerGroupsAPIService UpdateS3LoadBalancerGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 

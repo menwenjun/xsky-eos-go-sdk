@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_MenuAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_MenuAPIService(t *testing.T) {
 
 	t.Run("Test MenuAPIService DeleteMenu", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_MenuAPIService(t *testing.T) {
 
 	t.Run("Test MenuAPIService GetMenu", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MenuAPI.GetMenu(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_MenuAPIService(t *testing.T) {
 
 	t.Run("Test MenuAPIService UpdateMenu", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MenuAPI.UpdateMenu(context.Background()).Execute()
 

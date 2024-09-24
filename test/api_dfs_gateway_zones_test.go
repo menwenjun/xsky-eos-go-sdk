@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayZonesAPIService CreateDfsGatewayZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsGatewayZonesAPI.CreateDfsGatewayZone(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayZonesAPIService DeleteDfsGatewayZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayZoneId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayZonesAPIService GetDfsGatewayZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayZoneId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayZonesAPIService GetDfsGatewayZoneSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayZoneId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayZonesAPIService ListDfsGatewayZones", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsGatewayZonesAPI.ListDfsGatewayZones(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsGatewayZonesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayZonesAPIService UpdateDfsGatewayZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayZoneId int64
 

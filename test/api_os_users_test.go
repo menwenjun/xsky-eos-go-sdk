@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsUsersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsUsersAPIService(t *testing.T) {
 
 	t.Run("Test OsUsersAPIService CreateObjectStorageUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsUsersAPI.CreateObjectStorageUser(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_OsUsersAPIService(t *testing.T) {
 
 	t.Run("Test OsUsersAPIService DeleteObjectStorageUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_OsUsersAPIService(t *testing.T) {
 
 	t.Run("Test OsUsersAPIService GetObjectStorageUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_OsUsersAPIService(t *testing.T) {
 
 	t.Run("Test OsUsersAPIService GetObjectStorageUserSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_OsUsersAPIService(t *testing.T) {
 
 	t.Run("Test OsUsersAPIService ListObjectStorageUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsUsersAPI.ListObjectStorageUsers(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_OsUsersAPIService(t *testing.T) {
 
 	t.Run("Test OsUsersAPIService UpdateObjectStorageUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId int64
 

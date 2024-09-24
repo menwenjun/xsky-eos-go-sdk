@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsGatewayServicesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsGatewayServicesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayServicesAPIService BatchGetDfsGatewayServiceSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsGatewayServicesAPI.BatchGetDfsGatewayServiceSamples(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsGatewayServicesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayServicesAPIService GetDfsGatewayService", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayServiceId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsGatewayServicesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayServicesAPIService GetDfsGatewayServiceSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayServiceId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsGatewayServicesAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayServicesAPIService ListDfsGatewayServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsGatewayServicesAPI.ListDfsGatewayServices(context.Background()).Execute()
 

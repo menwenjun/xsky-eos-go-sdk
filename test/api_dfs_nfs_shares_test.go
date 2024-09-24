@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService AddDfsNFSShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService CreateDfsNFSShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsNfsSharesAPI.CreateDfsNFSShare(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService DeleteDfsNFSShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService GetDfsNFSShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService ListDfsNFSShares", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsNfsSharesAPI.ListDfsNFSShares(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService RemoveDfsNFSShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService SetDfsNFSShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService UpdateDfsNFSShare", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_DfsNfsSharesAPIService(t *testing.T) {
 
 	t.Run("Test DfsNfsSharesAPIService UpdateDfsNFSShareACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsNfsShareId int64
 

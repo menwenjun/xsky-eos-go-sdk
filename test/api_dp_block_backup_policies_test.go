@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DpBlockBackupPoliciesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DpBlockBackupPoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockBackupPoliciesAPIService CreateDpBlockBackupPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockBackupPoliciesAPI.CreateDpBlockBackupPolicy(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DpBlockBackupPoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockBackupPoliciesAPIService DeleteDpBlockBackupPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var policyId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DpBlockBackupPoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockBackupPoliciesAPIService GetDpBlockBackupPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var policyId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DpBlockBackupPoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockBackupPoliciesAPIService ListDpBlockBackupPolicies", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockBackupPoliciesAPI.ListDpBlockBackupPolicies(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_DpBlockBackupPoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockBackupPoliciesAPIService UpdateDpBlockBackupPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var policyId int64
 

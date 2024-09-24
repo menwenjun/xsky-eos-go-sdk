@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService CreateDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSnapshotsAPI.CreateDfsSnapshot(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService DeleteDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsSnapshotId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService GetDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsSnapshotId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService GetDfsSnapshotsOverViewPage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSnapshotsAPI.GetDfsSnapshotsOverViewPage(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService ListDfsSnapshots", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSnapshotsAPI.ListDfsSnapshots(context.Background()).Execute()
 
@@ -88,7 +88,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService LockDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsSnapshotId int64
 
@@ -102,7 +102,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService RollbackDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsSnapshotId int64
 
@@ -116,7 +116,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService UnlockDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsSnapshotId int64
 
@@ -130,7 +130,7 @@ func Test_openapi_DfsSnapshotsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSnapshotsAPIService UpdateDfsSnapshot", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsSnapshotId int64
 

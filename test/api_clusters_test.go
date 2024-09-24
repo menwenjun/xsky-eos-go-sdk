@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ClustersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService ClusterAddHosts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService ClusterRemoveHosts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService ClusterSkipAction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId int64
 
@@ -66,7 +66,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService CreateCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClustersAPI.CreateCluster(context.Background()).Execute()
 
@@ -78,7 +78,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService DeleteCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService GetOspClusterOverview", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId int64
 
@@ -106,7 +106,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService ListClusters", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClustersAPI.ListClusters(context.Background()).Execute()
 
@@ -118,7 +118,7 @@ func Test_openapi_ClustersAPIService(t *testing.T) {
 
 	t.Run("Test ClustersAPIService UpdateClusters", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clusterId int64
 

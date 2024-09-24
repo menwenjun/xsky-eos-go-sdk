@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService CreateDfsS3Bucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsS3BucketsAPI.CreateDfsS3Bucket(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService DeleteDfsS3Bucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService DeleteDfsS3BucketPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService GetDfsS3Bucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService GetDfsS3BucketSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService ListDfsS3Buckets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsS3BucketsAPI.ListDfsS3Buckets(context.Background()).Execute()
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService SetDfsS3BucketPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsS3BucketsAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3BucketsAPIService UpdateDfsS3Bucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 

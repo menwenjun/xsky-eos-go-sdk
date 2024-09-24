@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ClusterAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService BootNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.BootNode(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService Cluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.Cluster(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService CommitMasterSwitching", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.CommitMasterSwitching(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService DeleteObjectStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.DeleteObjectStorage(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService Download", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.Download(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService EnableMultiZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.EnableMultiZone(context.Background()).Execute()
 
@@ -96,7 +96,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetActionLogReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetActionLogReport(context.Background()).Execute()
 
@@ -108,7 +108,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetAlertReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetAlertReport(context.Background()).Execute()
 
@@ -120,7 +120,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetClusterOverview", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetClusterOverview(context.Background()).Execute()
 
@@ -132,7 +132,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetClusterReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetClusterReport(context.Background()).Execute()
 
@@ -144,7 +144,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetClusterSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetClusterSamples(context.Background()).Execute()
 
@@ -156,7 +156,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetClusterStatsUsagePrediction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetClusterStatsUsagePrediction(context.Background()).Execute()
 
@@ -168,7 +168,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetEventLogReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetEventLogReport(context.Background()).Execute()
 
@@ -180,7 +180,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetNgObjectStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetNgObjectStorage(context.Background()).Execute()
 
@@ -192,7 +192,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetObjectStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetObjectStorage(context.Background()).Execute()
 
@@ -204,7 +204,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetObjectStorageSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetObjectStorageSamples(context.Background()).Execute()
 
@@ -216,7 +216,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService GetZoneExtendedInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.GetZoneExtendedInfo(context.Background()).Execute()
 
@@ -228,7 +228,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService InitObjectStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.InitObjectStorage(context.Background()).Execute()
 
@@ -240,7 +240,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService Installation", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.Installation(context.Background()).Execute()
 
@@ -252,7 +252,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService PrepareMasterSwitching", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.PrepareMasterSwitching(context.Background()).Execute()
 
@@ -264,7 +264,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService RemoveClusterAccessInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.RemoveClusterAccessInfo(context.Background()).Execute()
 
@@ -276,7 +276,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService RollbackMasterSwitching", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.RollbackMasterSwitching(context.Background()).Execute()
 
@@ -288,7 +288,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService ServerTime", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.ServerTime(context.Background()).Execute()
 
@@ -300,7 +300,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetBootNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetBootNode(context.Background()).Execute()
 
@@ -312,7 +312,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetClusterAccessInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetClusterAccessInfo(context.Background()).Execute()
 
@@ -324,7 +324,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetClusterNetwork", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetClusterNetwork(context.Background()).Execute()
 
@@ -336,7 +336,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetNgObjectStorageDomainNames", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetNgObjectStorageDomainNames(context.Background()).Execute()
 
@@ -348,7 +348,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetObjectStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetObjectStorage(context.Background()).Execute()
 
@@ -360,7 +360,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetObjectStorageDNSNames", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetObjectStorageDNSNames(context.Background()).Execute()
 
@@ -372,7 +372,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetObjectStorageOriginPullHosts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetObjectStorageOriginPullHosts(context.Background()).Execute()
 
@@ -384,7 +384,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SetObjectStorageTieringHosts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SetObjectStorageTieringHosts(context.Background()).Execute()
 
@@ -396,7 +396,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService SwitchOSZoneToMaster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.SwitchOSZoneToMaster(context.Background()).Execute()
 
@@ -408,7 +408,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService UpdateCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.UpdateCluster(context.Background()).Execute()
 
@@ -420,7 +420,7 @@ func Test_openapi_ClusterAPIService(t *testing.T) {
 
 	t.Run("Test ClusterAPIService UpdateClusterMaintenance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClusterAPI.UpdateClusterMaintenance(context.Background()).Execute()
 

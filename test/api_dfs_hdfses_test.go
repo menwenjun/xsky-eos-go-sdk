@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService AddDfsHdfsACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService AddDfsHdfsIPWhiteLists", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService AddDfsHdfsProxyUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -66,7 +66,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService CreateDfsHdfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsHdfsesAPI.CreateDfsHdfs(context.Background()).Execute()
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService DeleteDfsHdfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService GetDfsHdfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -106,7 +106,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService ListDfsHdfses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsHdfsesAPI.ListDfsHdfses(context.Background()).Execute()
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService RemoveDfsHdfsACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService RemoveDfsHdfsIPWhiteLists", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -146,7 +146,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService RemoveDfsHdfsProxyUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -160,7 +160,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService UpdateDfsHdfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -174,7 +174,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService UpdateDfsHdfsACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -188,7 +188,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService UpdateDfsHdfsIPWhiteLists", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 
@@ -202,7 +202,7 @@ func Test_openapi_DfsHdfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsHdfsesAPIService UpdateDfsHdfsProxyUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsHdfsId int64
 

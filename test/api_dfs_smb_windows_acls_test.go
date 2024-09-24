@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSmbWindowsAclsAPIService CreateDfsSMBWindowsACL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSmbWindowsAclsAPI.CreateDfsSMBWindowsACL(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSmbWindowsAclsAPIService DeleteDfsSMBWindowsACL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSmbWindowsAclsAPI.DeleteDfsSMBWindowsACL(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSmbWindowsAclsAPIService GetDfsSMBWindowsACL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSmbWindowsAclsAPI.GetDfsSMBWindowsACL(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSmbWindowsAclsAPIService SetDfsSMBWindowsACLs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSmbWindowsAclsAPI.SetDfsSMBWindowsACLs(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSmbWindowsAclsAPIService UpdateDfsSMBWindowsACL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSmbWindowsAclsAPI.UpdateDfsSMBWindowsACL(context.Background()).Execute()
 
@@ -84,7 +84,7 @@ func Test_openapi_DfsSmbWindowsAclsAPIService(t *testing.T) {
 
 	t.Run("Test DfsSmbWindowsAclsAPIService UpdateDfsSMBWindowsACLInheritance", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsSmbWindowsAclsAPI.UpdateDfsSMBWindowsACLInheritance(context.Background()).Execute()
 

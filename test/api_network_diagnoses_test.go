@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NetworkDiagnosesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_NetworkDiagnosesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDiagnosesAPIService CreateNetworkDiagnosis", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkDiagnosesAPI.CreateNetworkDiagnosis(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_NetworkDiagnosesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDiagnosesAPIService DeleteNetworkDiagnosis", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDiagnosisId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_NetworkDiagnosesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDiagnosesAPIService GetNetworkDiagnosis", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDiagnosisId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_NetworkDiagnosesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDiagnosesAPIService ListNetworkDiagnoses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkDiagnosesAPI.ListNetworkDiagnoses(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_NetworkDiagnosesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDiagnosesAPIService StopNetworkDiagnosis", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDiagnosisId int64
 

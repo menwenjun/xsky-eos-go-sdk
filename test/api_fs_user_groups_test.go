@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService AddFSUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsUserGroupId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService CreateFSUserGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FsUserGroupsAPI.CreateFSUserGroup(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService DeleteFSUserGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsUserGroupId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService GetFSUserGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsUserGroupId int64
 
@@ -77,7 +77,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService ListFSUserGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FsUserGroupsAPI.ListFSUserGroups(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService RemoveFSUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsUserGroupId int64
 
@@ -103,7 +103,7 @@ func Test_openapi_FsUserGroupsAPIService(t *testing.T) {
 
 	t.Run("Test FsUserGroupsAPIService UpdateFSUserGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsUserGroupId int64
 

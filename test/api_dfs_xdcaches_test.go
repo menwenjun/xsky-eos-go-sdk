@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsXdcachesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsXdcachesAPIService(t *testing.T) {
 
 	t.Run("Test DfsXdcachesAPIService DisableDfsXDCache", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsXdcachesAPI.DisableDfsXDCache(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsXdcachesAPIService(t *testing.T) {
 
 	t.Run("Test DfsXdcachesAPIService EnableDfsXDCache", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsXdcachesAPI.EnableDfsXDCache(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_DfsXdcachesAPIService(t *testing.T) {
 
 	t.Run("Test DfsXdcachesAPIService ListDfsXDCaches", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsXdcachesAPI.ListDfsXDCaches(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_DfsXdcachesAPIService(t *testing.T) {
 
 	t.Run("Test DfsXdcachesAPIService ViewDfsXDCache", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsXdcachesAPI.ViewDfsXDCache(context.Background()).Execute()
 

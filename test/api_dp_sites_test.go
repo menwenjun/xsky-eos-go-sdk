@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DpSitesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService CreateDpSite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpSitesAPI.CreateDpSite(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService DeleteDpSite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var siteId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService GetBackupBlockSnapshots", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var siteId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService GetBackupBlockVolumes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var siteId int64
 
@@ -77,7 +77,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService GetBackupClusters", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var siteId int64
 
@@ -91,7 +91,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService GetDpSite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var siteId int64
 
@@ -105,7 +105,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService ListDpSites", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpSitesAPI.ListDpSites(context.Background()).Execute()
 
@@ -117,7 +117,7 @@ func Test_openapi_DpSitesAPIService(t *testing.T) {
 
 	t.Run("Test DpSitesAPIService UpdateDpSite", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var siteId int64
 

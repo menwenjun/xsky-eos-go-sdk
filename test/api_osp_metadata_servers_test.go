@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService DeleteOspMetadataServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -38,7 +38,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService DisableOspMetadataServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -52,7 +52,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService EnableOspMetadataServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -66,7 +66,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService GetOspMetadataServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -80,7 +80,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService GetOspMetadataServerSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -94,7 +94,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService ListOspMetadataServers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OspMetadataServersAPI.ListOspMetadataServers(context.Background()).Execute()
 
@@ -106,7 +106,7 @@ func Test_openapi_OspMetadataServersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataServersAPIService SetOspMetadataServerRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 

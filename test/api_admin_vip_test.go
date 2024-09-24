@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AdminVipAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AdminVipAPIService(t *testing.T) {
 
 	t.Run("Test AdminVipAPIService CreateOrUpdateAdminVIP", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdminVipAPI.CreateOrUpdateAdminVIP(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_AdminVipAPIService(t *testing.T) {
 
 	t.Run("Test AdminVipAPIService FlushAdminVIP", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdminVipAPI.FlushAdminVIP(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_AdminVipAPIService(t *testing.T) {
 
 	t.Run("Test AdminVipAPIService GetAdminVIP", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdminVipAPI.GetAdminVIP(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_AdminVipAPIService(t *testing.T) {
 
 	t.Run("Test AdminVipAPIService GetAdminVIPNetwork", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AdminVipAPI.GetAdminVIPNetwork(context.Background()).Execute()
 

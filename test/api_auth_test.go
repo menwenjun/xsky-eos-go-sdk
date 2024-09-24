@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AuthAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService CreateRSAKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthAPI.CreateRSAKey(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService CreateToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthAPI.CreateToken(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService GetAuthSecurityPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthAPI.GetAuthSecurityPolicy(context.Background()).Execute()
 
@@ -60,7 +60,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService Login", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthAPI.Login(context.Background()).Execute()
 
@@ -72,7 +72,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService Logout", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AuthAPI.Logout(context.Background()).Execute()
 
@@ -83,7 +83,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService UpdateAuthSecurityPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthAPI.UpdateAuthSecurityPolicy(context.Background()).Execute()
 
@@ -95,7 +95,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService ValidatePrivilegedToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AuthAPI.ValidatePrivilegedToken(context.Background()).Execute()
 
@@ -107,7 +107,7 @@ func Test_openapi_AuthAPIService(t *testing.T) {
 
 	t.Run("Test AuthAPIService Verification", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AuthAPI.Verification(context.Background()).Execute()
 

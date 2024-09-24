@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsZoneLocksAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsZoneLocksAPIService(t *testing.T) {
 
 	t.Run("Test OsZoneLocksAPIService CreateOSZoneLock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsZoneLocksAPI.CreateOSZoneLock(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_OsZoneLocksAPIService(t *testing.T) {
 
 	t.Run("Test OsZoneLocksAPIService DeleteOSZoneLock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var lockUuid string
 
@@ -49,7 +49,7 @@ func Test_openapi_OsZoneLocksAPIService(t *testing.T) {
 
 	t.Run("Test OsZoneLocksAPIService GetOSZoneLock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var lockUuid string
 
@@ -63,7 +63,7 @@ func Test_openapi_OsZoneLocksAPIService(t *testing.T) {
 
 	t.Run("Test OsZoneLocksAPIService ListOSZoneLocks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsZoneLocksAPI.ListOSZoneLocks(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_OsZoneLocksAPIService(t *testing.T) {
 
 	t.Run("Test OsZoneLocksAPIService RefreshOSZoneLock", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var lockUuid string
 

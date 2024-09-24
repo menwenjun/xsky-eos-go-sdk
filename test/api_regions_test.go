@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_RegionsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService AddRemoteRegion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.AddRemoteRegion(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService GetLocalRegion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.GetLocalRegion(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService GetRegion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var regionId int64
 
@@ -62,7 +62,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService GetRegionStatsUsagePrediction", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var regionId int64
 
@@ -76,7 +76,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService JoinRemoteRegion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.JoinRemoteRegion(context.Background()).Execute()
 
@@ -88,7 +88,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService ListRegions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.ListRegions(context.Background()).Execute()
 
@@ -100,7 +100,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService SetAccessInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.SetAccessInfo(context.Background()).Execute()
 
@@ -112,7 +112,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService UpdateRegion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.UpdateRegion(context.Background()).Execute()
 
@@ -124,7 +124,7 @@ func Test_openapi_RegionsAPIService(t *testing.T) {
 
 	t.Run("Test RegionsAPIService UpdateRemoteRegion", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RegionsAPI.UpdateRemoteRegion(context.Background()).Execute()
 

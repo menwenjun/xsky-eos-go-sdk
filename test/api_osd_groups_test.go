@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsdGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService AddOsdsToOsdGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService DisableDeviceTypeCheck", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService EnableDeviceTypeCheck", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -66,7 +66,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService GetOsdGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -80,7 +80,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService GetOsdGroupSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -94,7 +94,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService ListOsdGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsdGroupsAPI.ListOsdGroups(context.Background()).Execute()
 
@@ -106,7 +106,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService RemoveOsdsFromOsdGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -120,7 +120,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService ReweightOsdGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -134,7 +134,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService SetOsdFullRatio", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -148,7 +148,7 @@ func Test_openapi_OsdGroupsAPIService(t *testing.T) {
 
 	t.Run("Test OsdGroupsAPIService SetOsdGroupQos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 

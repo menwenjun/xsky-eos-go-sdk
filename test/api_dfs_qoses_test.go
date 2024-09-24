@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsQosesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsQosesAPIService(t *testing.T) {
 
 	t.Run("Test DfsQosesAPIService CreateDfsQos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsQosesAPI.CreateDfsQos(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsQosesAPIService(t *testing.T) {
 
 	t.Run("Test DfsQosesAPIService DeleteDfsQos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQosId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsQosesAPIService(t *testing.T) {
 
 	t.Run("Test DfsQosesAPIService GetDfsQos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQosId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsQosesAPIService(t *testing.T) {
 
 	t.Run("Test DfsQosesAPIService GetDfsQosSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQosId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsQosesAPIService(t *testing.T) {
 
 	t.Run("Test DfsQosesAPIService ListDfsQoses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsQosesAPI.ListDfsQoses(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsQosesAPIService(t *testing.T) {
 
 	t.Run("Test DfsQosesAPIService UpdateDfsQos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQosId int64
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ClientsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ClientsAPIService(t *testing.T) {
 
 	t.Run("Test ClientsAPIService GetClient", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var clientId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_ClientsAPIService(t *testing.T) {
 
 	t.Run("Test ClientsAPIService ListClients", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ClientsAPI.ListClients(context.Background()).Execute()
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DpBlockAsyncReplicationJobsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DpBlockAsyncReplicationJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationJobsAPIService DeleteDpBlockAsyncReplicationJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId int64
 
@@ -37,7 +37,7 @@ func Test_openapi_DpBlockAsyncReplicationJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationJobsAPIService GetDpBlockAsyncReplicationJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId int64
 
@@ -51,7 +51,7 @@ func Test_openapi_DpBlockAsyncReplicationJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationJobsAPIService ListDpBlockAsyncReplicationJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockAsyncReplicationJobsAPI.ListDpBlockAsyncReplicationJob(context.Background()).Execute()
 

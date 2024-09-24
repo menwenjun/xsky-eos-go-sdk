@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_RbdClientsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RbdClientsAPIService(t *testing.T) {
 
 	t.Run("Test RbdClientsAPIService CreateRBDC", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RbdClientsAPI.CreateRBDC(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_RbdClientsAPIService(t *testing.T) {
 
 	t.Run("Test RbdClientsAPIService DeleteRBDClient", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var rbdcId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_RbdClientsAPIService(t *testing.T) {
 
 	t.Run("Test RbdClientsAPIService GetRBDClient", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var rbdcId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_RbdClientsAPIService(t *testing.T) {
 
 	t.Run("Test RbdClientsAPIService ListRBDClients", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RbdClientsAPI.ListRBDClients(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_RbdClientsAPIService(t *testing.T) {
 
 	t.Run("Test RbdClientsAPIService UpdateRBDClient", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var rbdcId int64
 
@@ -90,7 +90,7 @@ func Test_openapi_RbdClientsAPIService(t *testing.T) {
 
 	t.Run("Test RbdClientsAPIService ValidateRBDClientHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RbdClientsAPI.ValidateRBDClientHost(context.Background()).Execute()
 

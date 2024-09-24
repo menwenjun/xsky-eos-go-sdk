@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService AddDfsStorageClassPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService CreateDfsStorageClass", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsStorageClassesAPI.CreateDfsStorageClass(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService DeleteDfsStorageClass", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService GetDfsStorageClass", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService GetDfsStorageClassPredictions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService GetDfsStorageClassSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 
@@ -106,7 +106,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService ListDfsStorageClasses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsStorageClassesAPI.ListDfsStorageClasses(context.Background()).Execute()
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService RemoveDfsStorageClassPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_DfsStorageClassesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStorageClassesAPIService UpdateDfsStorageClass", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStorageClassId int64
 

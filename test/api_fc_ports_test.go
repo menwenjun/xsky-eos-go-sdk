@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_FcPortsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_FcPortsAPIService(t *testing.T) {
 
 	t.Run("Test FcPortsAPIService ClearFCPortErrCode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fcPortId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_FcPortsAPIService(t *testing.T) {
 
 	t.Run("Test FcPortsAPIService GetFCPort", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fcPortId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_FcPortsAPIService(t *testing.T) {
 
 	t.Run("Test FcPortsAPIService ListFCPorts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FcPortsAPI.ListFCPorts(context.Background()).Execute()
 
@@ -64,7 +64,7 @@ func Test_openapi_FcPortsAPIService(t *testing.T) {
 
 	t.Run("Test FcPortsAPIService ResetFCPort", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fcPortId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_FcPortsAPIService(t *testing.T) {
 
 	t.Run("Test FcPortsAPIService SetFCPort", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fcPortId int64
 

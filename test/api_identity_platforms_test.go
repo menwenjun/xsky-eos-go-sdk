@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService CreateIdentityPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.IdentityPlatformsAPI.CreateIdentityPlatform(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService DeleteIdentityPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var identityPlatformId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService GetIdentityPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var identityPlatformId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService ListIdentityPlatforms", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.IdentityPlatformsAPI.ListIdentityPlatforms(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService LoginSSOTypes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.IdentityPlatformsAPI.LoginSSOTypes(context.Background()).Execute()
 
@@ -87,7 +87,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService RegenerateIdentityKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var identityPlatformId int64
 
@@ -101,7 +101,7 @@ func Test_openapi_IdentityPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test IdentityPlatformsAPIService UpdateIdentityPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var identityPlatformId int64
 

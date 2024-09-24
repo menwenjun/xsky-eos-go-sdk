@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsQuotasAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService CreateDfsQuota", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsQuotasAPI.CreateDfsQuota(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService DeleteDfsQuota", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQuotaId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService DfsQuotaOverview", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsQuotasAPI.DfsQuotaOverview(context.Background()).Execute()
 
@@ -62,7 +62,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService GetDfsQuota", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQuotaId int64
 
@@ -76,7 +76,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService GetDfsQuotaPredictions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQuotaId int64
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService GetDfsQuotaSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQuotaId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService ListDfsQuotas", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsQuotasAPI.ListDfsQuotas(context.Background()).Execute()
 
@@ -116,7 +116,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService PathValidator", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsQuotasAPI.PathValidator(context.Background()).Execute()
 
@@ -128,7 +128,7 @@ func Test_openapi_DfsQuotasAPIService(t *testing.T) {
 
 	t.Run("Test DfsQuotasAPIService UpdateDfsQuota", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsQuotaId int64
 

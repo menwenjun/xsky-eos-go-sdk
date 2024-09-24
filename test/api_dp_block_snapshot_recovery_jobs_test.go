@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DpBlockSnapshotRecoveryJobsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DpBlockSnapshotRecoveryJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockSnapshotRecoveryJobsAPIService CreateDpBlockSnapshotRecoveryJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockSnapshotRecoveryJobsAPI.CreateDpBlockSnapshotRecoveryJob(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DpBlockSnapshotRecoveryJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockSnapshotRecoveryJobsAPIService DeleteDpBlockSnapshotRecoveryJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_DpBlockSnapshotRecoveryJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockSnapshotRecoveryJobsAPIService GetDpBlockSnapshotRecoveryJob", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var jobId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_DpBlockSnapshotRecoveryJobsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockSnapshotRecoveryJobsAPIService ListDpBlockSnapshotRecoveryJobs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockSnapshotRecoveryJobsAPI.ListDpBlockSnapshotRecoveryJobs(context.Background()).Execute()
 

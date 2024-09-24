@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService AddDNSGatewayToGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService CreateDNSGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DnsGatewayGroupsAPI.CreateDNSGatewayGroup(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService DeleteDNSGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService GetDNSGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService ListDNSGatewayGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DnsGatewayGroupsAPI.ListDNSGatewayGroups(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService RedeployDNSGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_DnsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DnsGatewayGroupsAPIService RemoveDNSGatewayFromGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 

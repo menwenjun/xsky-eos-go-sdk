@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AlertInfosAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService AckAlertInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoId int64
 
@@ -37,7 +37,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService CountAlertInfos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertInfosAPI.CountAlertInfos(context.Background()).Execute()
 
@@ -49,7 +49,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService CountBatchDeleteAlertInfos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertInfosAPI.CountBatchDeleteAlertInfos(context.Background()).Execute()
 
@@ -61,7 +61,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService DeleteAlertInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoId int64
 
@@ -75,7 +75,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService DeleteAlertInfos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertInfosAPI.DeleteAlertInfos(context.Background()).Execute()
 
@@ -87,7 +87,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService GetAlertInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoId int64
 
@@ -101,7 +101,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService GetAlertInfosReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AlertInfosAPI.GetAlertInfosReport(context.Background()).Execute()
 
@@ -112,7 +112,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService ListAlertInfos", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertInfosAPI.ListAlertInfos(context.Background()).Execute()
 
@@ -124,7 +124,7 @@ func Test_openapi_AlertInfosAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfosAPIService ResolveAlertInfo", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoId int64
 

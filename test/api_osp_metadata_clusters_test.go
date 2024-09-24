@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService AddPartitions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -38,7 +38,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService CreateOspMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OspMetadataClustersAPI.CreateOspMetadataCluster(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService DeleteOspMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -64,7 +64,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService GetOspMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -78,7 +78,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService GetOspMetadataClusterSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -92,7 +92,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService ListOspMetadataClusters", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OspMetadataClustersAPI.ListOspMetadataClusters(context.Background()).Execute()
 
@@ -104,7 +104,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService RemovePartitions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -118,7 +118,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetCoordinator", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -132,7 +132,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetDeployMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -146,7 +146,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetLogServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -160,7 +160,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetMetadataServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -174,7 +174,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetMinAvailableSpaceRatio", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -188,7 +188,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetName", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -202,7 +202,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetPrimaryDc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -216,7 +216,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetSecurityPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -230,7 +230,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -244,7 +244,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetSpaceUsageFactor", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -258,7 +258,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetStatelessNum", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -272,7 +272,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService SetStatelessServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 
@@ -286,7 +286,7 @@ func Test_openapi_OspMetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test OspMetadataClustersAPIService UpgradeOspMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id int64
 

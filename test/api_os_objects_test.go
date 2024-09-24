@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsObjectsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsObjectsAPIService(t *testing.T) {
 
 	t.Run("Test OsObjectsAPIService ListOSObjectsBySQL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.OsObjectsAPI.ListOSObjectsBySQL(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_openapi_OsObjectsAPIService(t *testing.T) {
 
 	t.Run("Test OsObjectsAPIService ListOSObjectsBySearch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.OsObjectsAPI.ListOSObjectsBySearch(context.Background()).Execute()
 
@@ -46,7 +46,7 @@ func Test_openapi_OsObjectsAPIService(t *testing.T) {
 
 	t.Run("Test OsObjectsAPIService ReportOSObjectsBySQL", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsObjectsAPI.ReportOSObjectsBySQL(context.Background()).Execute()
 

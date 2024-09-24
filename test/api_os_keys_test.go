@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsKeysAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsKeysAPIService(t *testing.T) {
 
 	t.Run("Test OsKeysAPIService CreateKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsKeysAPI.CreateKey(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_OsKeysAPIService(t *testing.T) {
 
 	t.Run("Test OsKeysAPIService DeleteKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var keyId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_OsKeysAPIService(t *testing.T) {
 
 	t.Run("Test OsKeysAPIService GetKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var keyId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_OsKeysAPIService(t *testing.T) {
 
 	t.Run("Test OsKeysAPIService ListKeys", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsKeysAPI.ListKeys(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_OsKeysAPIService(t *testing.T) {
 
 	t.Run("Test OsKeysAPIService UpdateKey", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var keyId int64
 

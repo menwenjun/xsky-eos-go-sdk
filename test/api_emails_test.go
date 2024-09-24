@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_EmailsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_EmailsAPIService(t *testing.T) {
 
 	t.Run("Test EmailsAPIService GetEmailConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EmailsAPI.GetEmailConfig(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_EmailsAPIService(t *testing.T) {
 
 	t.Run("Test EmailsAPIService SendEmail", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EmailsAPI.SendEmail(context.Background()).Execute()
 
@@ -48,7 +48,7 @@ func Test_openapi_EmailsAPIService(t *testing.T) {
 
 	t.Run("Test EmailsAPIService UpdateEmailConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EmailsAPI.UpdateEmailConfig(context.Background()).Execute()
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AlertRulesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService CreateAlertRuleResourceBlacklist", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ruleId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService DeleteAlertRule", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ruleId int64
 
@@ -51,7 +51,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService DeleteAlertRuleResourceBlacklist", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ruleId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService GetAlertRule", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ruleId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService GetAlertRuleSchema", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertRulesAPI.GetAlertRuleSchema(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService GetAlertRulesReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AlertRulesAPI.GetAlertRulesReport(context.Background()).Execute()
 
@@ -101,7 +101,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService ListAlertRuleResourceBlacklist", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ruleId int64
 
@@ -115,7 +115,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService ListAlertRules", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertRulesAPI.ListAlertRules(context.Background()).Execute()
 
@@ -127,7 +127,7 @@ func Test_openapi_AlertRulesAPIService(t *testing.T) {
 
 	t.Run("Test AlertRulesAPIService UpdateAlertRule", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ruleId int64
 

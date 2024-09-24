@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_PlacementNodesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService CreatePlacementNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PlacementNodesAPI.CreatePlacementNode(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService DeletePlacementNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var placementNodeId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService GetPlacementNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var placementNodeId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService GetPlacementNodeTopology", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var placementNodeId int64
 
@@ -77,7 +77,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService GetTopologyFromOsds", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PlacementNodesAPI.GetTopologyFromOsds(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService ListPlacementNodes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PlacementNodesAPI.ListPlacementNodes(context.Background()).Execute()
 
@@ -101,7 +101,7 @@ func Test_openapi_PlacementNodesAPIService(t *testing.T) {
 
 	t.Run("Test PlacementNodesAPIService UpdatePlacementNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var placementNodeId int64
 

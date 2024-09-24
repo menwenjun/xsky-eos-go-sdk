@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test CloudPlatformsAPIService CreateCloudPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.CloudPlatformsAPI.CreateCloudPlatform(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test CloudPlatformsAPIService DeleteCloudPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var cloudPlatformId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test CloudPlatformsAPIService GetCloudPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var cloudPlatformId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test CloudPlatformsAPIService ListCloudPlatforms", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.CloudPlatformsAPI.ListCloudPlatforms(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test CloudPlatformsAPIService SyncCloudPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var cloudPlatformId int64
 
@@ -89,7 +89,7 @@ func Test_openapi_CloudPlatformsAPIService(t *testing.T) {
 
 	t.Run("Test CloudPlatformsAPIService UpdateCloudPlatform", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var cloudPlatformId int64
 

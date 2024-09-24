@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsdsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService ActivateOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService CreateOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsdsAPI.CreateOsd(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService DeleteOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService GetOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService GetOsdPredictions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService GetOsdSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -106,7 +106,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService GetOsdsOverview", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsdsAPI.GetOsdsOverview(context.Background()).Execute()
 
@@ -118,7 +118,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService ListOsds", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsdsAPI.ListOsds(context.Background()).Execute()
 
@@ -130,7 +130,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService MaintainOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -144,7 +144,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService RebuildOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -158,7 +158,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService SwitchOsdRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -172,7 +172,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService UnmaintainOsd", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -186,7 +186,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService UnsetOsdIsolation", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 
@@ -200,7 +200,7 @@ func Test_openapi_OsdsAPIService(t *testing.T) {
 
 	t.Run("Test OsdsAPIService UpdateOsdNumaNode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osdId int64
 

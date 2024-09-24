@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService AddDfsGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService CreateDfsGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsGatewayGroupsAPI.CreateDfsGatewayGroup(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService DeleteDfsGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService GetDfsGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService ListDfsGatewayGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsGatewayGroupsAPI.ListDfsGatewayGroups(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService RebuildDfsGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService RemoveDfsGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService UpdateDfsGatewayGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService UpdateDfsGatewayGroupTypes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 
@@ -146,7 +146,7 @@ func Test_openapi_DfsGatewayGroupsAPIService(t *testing.T) {
 
 	t.Run("Test DfsGatewayGroupsAPIService UpdateDfsGatewayGroupVIPs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsGatewayGroupId int64
 

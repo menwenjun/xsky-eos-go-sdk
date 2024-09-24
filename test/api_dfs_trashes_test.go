@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsTrashesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService CloseDfsTrash", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService EmptyDfsTrash", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService GetDfsTrash", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -66,7 +66,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService ListDfsTrashFileJobs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsTrashesAPI.ListDfsTrashFileJobs(context.Background()).Execute()
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService ListDfsTrashFiles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService ListDfsTrashes", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsTrashesAPI.ListDfsTrashes(context.Background()).Execute()
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService OpenDfsTrash", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsTrashesAPI.OpenDfsTrash(context.Background()).Execute()
 
@@ -116,7 +116,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService RemoveDfsTrashFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -130,7 +130,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService RestoreDfsTrashFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -144,7 +144,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService SearchDfsTrashFiles", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 
@@ -158,7 +158,7 @@ func Test_openapi_DfsTrashesAPIService(t *testing.T) {
 
 	t.Run("Test DfsTrashesAPIService UpdateDfsTrash", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsTrashId int64
 

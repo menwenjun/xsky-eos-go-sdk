@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_MetadataClustersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService AddMetadataServicesToCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService CreateMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MetadataClustersAPI.CreateMetadataCluster(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService DeleteMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService GetMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService GetMetadataClusterPredictions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService GetMetadataClusterSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -106,7 +106,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService ListMetadataClusters", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.MetadataClustersAPI.ListMetadataClusters(context.Background()).Execute()
 
@@ -118,7 +118,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService RemoveMetadataServicesFromCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService SetMetadataClusterToStretched", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -146,7 +146,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService SetMetadataClusterTransLocator", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -160,7 +160,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService UpdateMetadataCluster", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 
@@ -174,7 +174,7 @@ func Test_openapi_MetadataClustersAPIService(t *testing.T) {
 
 	t.Run("Test MetadataClustersAPIService UpdatePrimaryDc", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var metadataClusterId int64
 

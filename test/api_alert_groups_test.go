@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AlertGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AlertGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertGroupsAPIService CreateAlertGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertGroupsAPI.CreateAlertGroup(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_AlertGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertGroupsAPIService DeleteAlertGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_AlertGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertGroupsAPIService GetAlertGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_AlertGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertGroupsAPIService ListAlertGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertGroupsAPI.ListAlertGroups(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_AlertGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertGroupsAPIService UpdateAlertGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 

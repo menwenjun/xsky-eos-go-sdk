@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService CreateNFSGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NfsGatewaysAPI.CreateNFSGateway(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService CreateNFSGatewayBucketMap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 		var bucketId int64
@@ -51,7 +51,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService DeleteNFSGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 
@@ -65,7 +65,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService DeleteNFSGatewayBucketMap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 		var bucketId int64
@@ -80,7 +80,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService DoNFSGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 
@@ -94,7 +94,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService GetNFSGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 
@@ -108,7 +108,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService GetNFSGatewayBucketMap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 		var bucketId int64
@@ -123,7 +123,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService GetNFSGatewaySamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 
@@ -137,7 +137,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService ListNFSGatewayBucketMaps", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 
@@ -151,7 +151,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService ListNFSGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NfsGatewaysAPI.ListNFSGateways(context.Background()).Execute()
 
@@ -163,7 +163,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService UpdateNFSGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 
@@ -177,7 +177,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService UpdateNFSGatewayBucketMap", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 		var bucketId int64
@@ -192,7 +192,7 @@ func Test_openapi_NfsGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test NfsGatewaysAPIService UpdateOspExportConfig", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var gatewayId int64
 

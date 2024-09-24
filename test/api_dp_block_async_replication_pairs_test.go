@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService AsyncFailoverDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService CreateDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockAsyncReplicationPairsAPI.CreateDpBlockAsyncReplicationPair(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService DeleteDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService FailbackDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService GetDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService ListDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DpBlockAsyncReplicationPairsAPI.ListDpBlockAsyncReplicationPair(context.Background()).Execute()
 
@@ -104,7 +104,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService PauseDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService ResumeDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService RollbackDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -146,7 +146,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService SyncDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -160,7 +160,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService SyncFailoverDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 
@@ -174,7 +174,7 @@ func Test_openapi_DpBlockAsyncReplicationPairsAPIService(t *testing.T) {
 
 	t.Run("Test DpBlockAsyncReplicationPairsAPIService UpdateDpBlockAsyncReplicationPair", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var pairId int64
 

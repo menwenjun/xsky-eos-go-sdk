@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService AckAlertInfoGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoGroupId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService CountAlertInfoGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertInfoGroupsAPI.CountAlertInfoGroups(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService DeleteAlertInfoGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoGroupId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService GetAlertInfoGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var groupId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService GetAlertInfoGroupsReport", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.AlertInfoGroupsAPI.GetAlertInfoGroupsReport(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService ListAlertInfoGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AlertInfoGroupsAPI.ListAlertInfoGroups(context.Background()).Execute()
 
@@ -101,7 +101,7 @@ func Test_openapi_AlertInfoGroupsAPIService(t *testing.T) {
 
 	t.Run("Test AlertInfoGroupsAPIService ResolveAlertInfoGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var alertInfoGroupId int64
 

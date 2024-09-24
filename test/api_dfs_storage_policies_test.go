@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStoragePoliciesAPIService CreateDfsStoragePolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsStoragePoliciesAPI.CreateDfsStoragePolicy(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStoragePoliciesAPIService DeleteDfsStoragePolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStoragePolicyId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStoragePoliciesAPIService GetDfsStoragePolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStoragePolicyId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStoragePoliciesAPIService ListDfsStoragePolicies", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsStoragePoliciesAPI.ListDfsStoragePolicies(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStoragePoliciesAPIService UnlinkDfsStoragePolicyAndDfsPath", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStoragePolicyId int64
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsStoragePoliciesAPIService(t *testing.T) {
 
 	t.Run("Test DfsStoragePoliciesAPIService UpdateDfsStoragePolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsStoragePolicyId int64
 

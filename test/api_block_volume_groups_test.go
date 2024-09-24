@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService CreateBlockVolumeGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BlockVolumeGroupsAPI.CreateBlockVolumeGroup(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService DeleteBlockVolumeGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var blockVolumeGroupId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService GetBlockVolumeGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var blockVolumeGroupId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService ListBlockVolumeGroups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.BlockVolumeGroupsAPI.ListBlockVolumeGroups(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService RollbackVolumeGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var blockVolumeGroupId int64
 
@@ -90,7 +90,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService SetVolumeGroupSnapshotReplicationProtection", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var blockVolumeGroupId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService UnsetVolumeGroupSnapshotReplicationProtection", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var blockVolumeGroupId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_BlockVolumeGroupsAPIService(t *testing.T) {
 
 	t.Run("Test BlockVolumeGroupsAPIService UpdateBlockVolumeGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var blockVolumeGroupId int64
 

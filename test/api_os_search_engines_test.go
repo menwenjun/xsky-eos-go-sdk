@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService AddOSSearchGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService ChangeOSSearchEngine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService CreateOSSearchEngine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsSearchEnginesAPI.CreateOSSearchEngine(context.Background()).Execute()
 
@@ -64,7 +64,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService DeleteOSSearchEngine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService GetOSSearchEngine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService GetOSSearchEngineSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -106,7 +106,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService ListOSSearchEngines", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsSearchEnginesAPI.ListOSSearchEngines(context.Background()).Execute()
 
@@ -118,7 +118,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService RemoveOSSearchGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService StartOSSearchEngine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 
@@ -146,7 +146,7 @@ func Test_openapi_OsSearchEnginesAPIService(t *testing.T) {
 
 	t.Run("Test OsSearchEnginesAPIService StopOSSearchEngine", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var osSearchEngineId int64
 

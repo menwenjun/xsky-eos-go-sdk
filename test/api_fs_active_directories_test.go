@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test FsActiveDirectoriesAPIService CreateFSActiveDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FsActiveDirectoriesAPI.CreateFSActiveDirectory(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test FsActiveDirectoriesAPIService DeleteFSActiveDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsActiveDirectoryId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test FsActiveDirectoriesAPIService GetFSActiveDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsActiveDirectoryId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test FsActiveDirectoriesAPIService ListFSActiveDirectories", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.FsActiveDirectoriesAPI.ListFSActiveDirectories(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test FsActiveDirectoriesAPIService UpdateFSActiveDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsActiveDirectoryId int64
 
@@ -90,7 +90,7 @@ func Test_openapi_FsActiveDirectoriesAPIService(t *testing.T) {
 
 	t.Run("Test FsActiveDirectoriesAPIService VerifyFSActiveDirectory", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var fsActiveDirectoryId int64
 

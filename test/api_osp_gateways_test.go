@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OspGatewaysAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService CreateOspGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OspGatewaysAPI.CreateOspGateway(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService DeleteOspGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ospGatewayId string
 
@@ -50,7 +50,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService GetOspGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ospGatewayId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService GetOspGatewaySamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ospGatewayId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService GetOspGatewaysStatSumByZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OspGatewaysAPI.GetOspGatewaysStatSumByZone(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService ListOspGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OspGatewaysAPI.ListOspGateways(context.Background()).Execute()
 
@@ -102,7 +102,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService RestartOspGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ospGatewayId int64
 
@@ -116,7 +116,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService RestartOspGateways", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.OspGatewaysAPI.RestartOspGateways(context.Background()).Execute()
 
@@ -127,7 +127,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService StartOspGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ospGatewayId int64
 
@@ -141,7 +141,7 @@ func Test_openapi_OspGatewaysAPIService(t *testing.T) {
 
 	t.Run("Test OspGatewaysAPIService StopOspGateway", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var ospGatewayId string
 

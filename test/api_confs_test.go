@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ConfsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ConfsAPIService(t *testing.T) {
 
 	t.Run("Test ConfsAPIService DeleteConfItem", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var type_ string
 		var key string
@@ -38,7 +38,7 @@ func Test_openapi_ConfsAPIService(t *testing.T) {
 
 	t.Run("Test ConfsAPIService GetConfItem", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var type_ string
 		var key string
@@ -53,7 +53,7 @@ func Test_openapi_ConfsAPIService(t *testing.T) {
 
 	t.Run("Test ConfsAPIService ListConfItems", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var type_ string
 
@@ -67,7 +67,7 @@ func Test_openapi_ConfsAPIService(t *testing.T) {
 
 	t.Run("Test ConfsAPIService ListConfItemsQuery", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConfsAPI.ListConfItemsQuery(context.Background()).Execute()
 
@@ -79,7 +79,7 @@ func Test_openapi_ConfsAPIService(t *testing.T) {
 
 	t.Run("Test ConfsAPIService SetConfItem", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ConfsAPI.SetConfItem(context.Background()).Execute()
 
@@ -91,7 +91,7 @@ func Test_openapi_ConfsAPIService(t *testing.T) {
 
 	t.Run("Test ConfsAPIService SetConfItems", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var type_ string
 

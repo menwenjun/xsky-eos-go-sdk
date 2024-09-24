@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NetworkInterfacesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_NetworkInterfacesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkInterfacesAPIService GetNetworkInterface", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkInterfaceId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_NetworkInterfacesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkInterfacesAPIService GetNetworkInterfaceSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkInterfaceId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_NetworkInterfacesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkInterfacesAPIService ListNetworkInterfaces", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkInterfacesAPI.ListNetworkInterfaces(context.Background()).Execute()
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_TargetsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_TargetsAPIService(t *testing.T) {
 
 	t.Run("Test TargetsAPIService AddTargetGatewayIPs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var targetId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_TargetsAPIService(t *testing.T) {
 
 	t.Run("Test TargetsAPIService CreateTarget", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TargetsAPI.CreateTarget(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_TargetsAPIService(t *testing.T) {
 
 	t.Run("Test TargetsAPIService DeleteTarget", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var targetId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_TargetsAPIService(t *testing.T) {
 
 	t.Run("Test TargetsAPIService ListTargets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.TargetsAPI.ListTargets(context.Background()).Execute()
 

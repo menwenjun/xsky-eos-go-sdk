@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_PoolsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService AddOsdsToPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService AddPoolToOutsideBackend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.AddPoolToOutsideBackend(context.Background()).Execute()
 
@@ -50,7 +50,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService AddPoolsToOspDataBackend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.AddPoolsToOspDataBackend(context.Background()).Execute()
 
@@ -62,7 +62,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService CalcCapacity", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.CalcCapacity(context.Background()).Execute()
 
@@ -74,7 +74,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService CheckFull", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.CheckFull(context.Background()).Execute()
 
@@ -86,7 +86,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService CreatePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.CreatePool(context.Background()).Execute()
 
@@ -98,7 +98,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService DeletePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -112,7 +112,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService DisablePoolDeviceTypeCheck", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -126,7 +126,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService DisablePoolNuma", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -140,7 +140,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService EnablePoolDeviceTypeCheck", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -154,7 +154,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService EnablePoolNuma", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -168,7 +168,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -182,7 +182,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPoolPredictions", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -196,7 +196,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPoolSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -210,7 +210,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService GetPoolTopology", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -224,7 +224,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService InitializeEmptyPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -238,7 +238,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService ListPools", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.ListPools(context.Background()).Execute()
 
@@ -250,7 +250,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService RemoveFromOutsideBackend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.RemoveFromOutsideBackend(context.Background()).Execute()
 
@@ -262,7 +262,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService RemoveOsdsFromPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -276,7 +276,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService RemovePoolsFromOspDataBackend", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.PoolsAPI.RemovePoolsFromOspDataBackend(context.Background()).Execute()
 
@@ -288,7 +288,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService ReweightPool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -302,7 +302,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService SwitchPoolRole", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -316,7 +316,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService UpdateECPoolCrushRule", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -330,7 +330,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService UpdatePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 
@@ -344,7 +344,7 @@ func Test_openapi_PoolsAPIService(t *testing.T) {
 
 	t.Run("Test PoolsAPIService UpdatePoolGCPolicyPlan", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var poolId int64
 

@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_RoleMappingsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_RoleMappingsAPIService(t *testing.T) {
 
 	t.Run("Test RoleMappingsAPIService CreateRoleMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RoleMappingsAPI.CreateRoleMapping(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_RoleMappingsAPIService(t *testing.T) {
 
 	t.Run("Test RoleMappingsAPIService DeleteRoleMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleMappingId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_RoleMappingsAPIService(t *testing.T) {
 
 	t.Run("Test RoleMappingsAPIService GetRoleMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleMappingId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_RoleMappingsAPIService(t *testing.T) {
 
 	t.Run("Test RoleMappingsAPIService ListRoleMappings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.RoleMappingsAPI.ListRoleMappings(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_RoleMappingsAPIService(t *testing.T) {
 
 	t.Run("Test RoleMappingsAPIService UpdateRoleMapping", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var roleMappingId int64
 

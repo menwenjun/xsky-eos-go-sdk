@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_EventLogsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_EventLogsAPIService(t *testing.T) {
 
 	t.Run("Test EventLogsAPIService CreateEventLog", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EventLogsAPI.CreateEventLog(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_EventLogsAPIService(t *testing.T) {
 
 	t.Run("Test EventLogsAPIService ListEventLogs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EventLogsAPI.ListEventLogs(context.Background()).Execute()
 

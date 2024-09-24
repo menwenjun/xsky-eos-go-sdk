@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService CreateDfsRootfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsRootfsesAPI.CreateDfsRootfs(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService DeleteDfsRootfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsRootfsId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService GetDfsRootfs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsRootfsId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService GetDfsRootfsSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsRootfsId int64
 
@@ -78,7 +78,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService ListDfsRootfses", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsRootfsesAPI.ListDfsRootfses(context.Background()).Execute()
 
@@ -90,7 +90,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService SetDfsWormLogPath", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsRootfsId int64
 
@@ -104,7 +104,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService SetGCSpeed", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsRootfsId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_DfsRootfsesAPIService(t *testing.T) {
 
 	t.Run("Test DfsRootfsesAPIService UpdateDfsRootfsActivePool", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dfsRootfsId int64
 

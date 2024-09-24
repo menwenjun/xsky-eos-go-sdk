@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_AccessTokensAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService CreateAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AccessTokensAPI.CreateAccessToken(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService DeleteAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var accessTokenId int64
 
@@ -49,7 +49,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService GetAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var accessTokenId int64
 
@@ -63,7 +63,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService GetAccessTokenByUUID", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var uuid string
 
@@ -77,7 +77,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService ListAccessTokens", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AccessTokensAPI.ListAccessTokens(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService RegenerateAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var accessTokenId int64
 
@@ -103,7 +103,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService UpdateAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var accessTokenId int64
 
@@ -117,7 +117,7 @@ func Test_openapi_AccessTokensAPIService(t *testing.T) {
 
 	t.Run("Test AccessTokensAPIService ValidateAccessToken", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AccessTokensAPI.ValidateAccessToken(context.Background()).Execute()
 

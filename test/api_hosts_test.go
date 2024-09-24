@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_HostsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService CreateHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.HostsAPI.CreateHost(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService DeleteHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService DeleteHostsGatewayLbGroup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.HostsAPI.DeleteHostsGatewayLbGroup(context.Background()).Execute()
 
@@ -61,7 +61,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService GetHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 
@@ -75,7 +75,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService GetHostSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 
@@ -89,7 +89,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService HostDeletable", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 
@@ -103,7 +103,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService ListHosts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.HostsAPI.ListHosts(context.Background()).Execute()
 
@@ -115,7 +115,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService MaintainHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 
@@ -129,7 +129,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService RemoveHostsFormOspZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.HostsAPI.RemoveHostsFormOspZone(context.Background()).Execute()
 
@@ -140,7 +140,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService SetHostsToOspZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.HostsAPI.SetHostsToOspZone(context.Background()).Execute()
 
@@ -151,7 +151,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService UnmaintainHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 
@@ -165,7 +165,7 @@ func Test_openapi_HostsAPIService(t *testing.T) {
 
 	t.Run("Test HostsAPIService UpdateHost", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var hostId int64
 

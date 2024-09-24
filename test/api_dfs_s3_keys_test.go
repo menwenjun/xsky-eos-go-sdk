@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DfsS3KeysAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DfsS3KeysAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3KeysAPIService CreateDfsS3Key", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsS3KeysAPI.CreateDfsS3Key(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DfsS3KeysAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3KeysAPIService DeleteDfsS3Key", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var keyId int64
 
@@ -50,7 +50,7 @@ func Test_openapi_DfsS3KeysAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3KeysAPIService GetDfsS3Key", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var keyId int64
 
@@ -64,7 +64,7 @@ func Test_openapi_DfsS3KeysAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3KeysAPIService ListDfsS3Keys", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DfsS3KeysAPI.ListDfsS3Keys(context.Background()).Execute()
 
@@ -76,7 +76,7 @@ func Test_openapi_DfsS3KeysAPIService(t *testing.T) {
 
 	t.Run("Test DfsS3KeysAPIService UpdateDfsS3Key", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var keyId int64
 

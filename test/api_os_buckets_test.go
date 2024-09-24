@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/menwenjun/xsky-eos-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OsBucketsAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService AddCustomLabels", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -38,7 +38,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService AddOSReplicationPaths", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -52,7 +52,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService AddOSReplicationZones", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -66,7 +66,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService BatchGetObjectStorageSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsBucketsAPI.BatchGetObjectStorageSamples(context.Background()).Execute()
 
@@ -78,7 +78,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService CancelDeleteBucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -92,7 +92,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService CreateBucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsBucketsAPI.CreateBucket(context.Background()).Execute()
 
@@ -104,7 +104,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService CreateObjectStorageBucketNFSClients", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -118,7 +118,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService DeleteBucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -132,7 +132,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService DeleteObjectStorageBucketNFSClients", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -146,7 +146,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService DeleteObjectStorageLifecycle", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -160,7 +160,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService GetBucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -174,7 +174,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService GetOSBucketOriginPullSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -188,7 +188,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService GetObjectStorageBucketNFSClient", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 		var clientId int64
@@ -203,7 +203,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService GetObjectStorageBucketSamples", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -217,7 +217,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService ListBuckets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OsBucketsAPI.ListBuckets(context.Background()).Execute()
 
@@ -229,7 +229,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService ListObjectStorageBucketNFSClients", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -243,7 +243,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService RemoveCustomLabels", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -257,7 +257,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService RemoveOSBucketLoggings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -271,7 +271,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService RemoveOSReplicationPaths", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -285,7 +285,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService RemoveOSReplicationZones", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -299,7 +299,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SetAccessLogging", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -313,7 +313,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SetMetadataSearch", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -327,7 +327,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SetOSBucketPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -341,7 +341,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SetObjectStorageClass", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -355,7 +355,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SetObjectStorageLifecycleRules", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -369,7 +369,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SuspendAccessLoggings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -383,7 +383,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SuspendOSReplicationPaths", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -397,7 +397,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService SwitchOwnerOSZone", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -411,7 +411,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UnsetAccessLogging", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -425,7 +425,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UnsetOSBucketPolicy", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -439,7 +439,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UnsuspendAccessLogging", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -453,7 +453,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UnsuspendOSReplicationPaths", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -467,7 +467,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UpdateBucket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -481,7 +481,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UpdateCustomLabels", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 
@@ -495,7 +495,7 @@ func Test_openapi_OsBucketsAPIService(t *testing.T) {
 
 	t.Run("Test OsBucketsAPIService UpdateObjectStorageBucketNFSClient", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int64
 		var clientId int64
